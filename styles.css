@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.post {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    height: 100vh;
+    width: 33vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header,
+.post-img,
+.post-body {
+    margin-bottom: 1px;
+}
+
+.post-header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.texto-header {
+    margin-right: auto;
+    line-height: 1px;
+    padding-top: 10px;
+}
+
+.html5 {
+    margin-bottom: 0px;
+
+}
+
+.rigoberto {
+    margin-top: 0px;
+}
+
+
+.post-img {
+    height: 500px;
+    width: 33vw;
+    object-fit: cover;
+
+
+}
+
+.post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-body {
+    background-color: white;
+    padding: 10px;
+
+}
+
+.icono-html {
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.puntos-verticales {
+    font-size: 50px;
+}
+
+.iconos-final {
+    display: flex;
+    font-size: 20px;
+}
+
+.corazon,
+.comentario,
+.compartir {
+    padding-right: 5px;
+
+}
+
+.compartir {
+    margin-right: auto;
+
+}
